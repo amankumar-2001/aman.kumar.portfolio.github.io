@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Secular+One&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Aman kumar-Portfolio</title>
+    <link rel="stylesheet" href="styleCSS.css" />
+    <link rel="stylesheet" media="screen and (max-width:1120px)" href="phone.css">
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <nav id="navbar">
+      <div id="logo">Aman Kumar</div>
+      <div class="afternav" id="threeLine">
+        <div  id="sec-logo">Aman Kumar</div>
+        <button id="dropDown" onclick="toggleHide()">
+          <i class='bx bx-menu'> </i>
+        </button>
+      </div>
+      <div class="afternav" id="nav1">
+        <ul>
+          <li class="item"><a href="#Home">Home</a></li>
+          <li class="item"><a href="#About">About</a></li>
+          <li class="item"><a href="#Skills">Skills</a></li>
+          <li class="item"><a href="#Works">Works</a></li>
+          <li class="item"><a href="#CPProfile">C.P. Profile</a></li>
+          <li class="item"><a href="#contactid">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+                                     <!-- Home                                        -->
+    <section id="Home">
+      <div class="home" id="home">
+        <div class="details" id="box1">
+          Hello, My name is <br /><strong> Aman Kumar</strong><br />And I'm a
+          <span></span>
+        </div>
+        <div class="details" id="box2">
+          <a href="icons/ap2.jpeg" target="_blank"
+            ><img class="clipPath" src="icons/ap2.jpeg" alt="profile image"
+          /></a>
+        </div>
+      </div>
+    </section>
+                                      <!-- ABOUT -->
+    <section id="About">
+      <div class="about" id="about" data-aos="fade-left">
+        <div class="upper-heading">About Me</div>
+        <div id="details">
+          <strong class="AboutStart"> Hi, I am Aman kumar</strong><br>
+          I am from Muzaffarnagar.I completed my twelfth grade from Golden Heart Academy with 89% from CBSE Boards.Self-motivated, inquisitive, energetic, skilled in logics and with a strong progress in Data Structure and Algorithm.Positive, willing to go the distance to get the job done and try to bring me best every day. Aspiring to solve real world problems using Technology. A LEARNING enthusiast and passionate learner who loves to learn and explore about new technologies. Like to watch movies during my spare time.
+        </div>
+        <div id="resume"><a href="https://docs.google.com/document/d/197wU8l9xj-Ij2J-5J6ZCTjB1SSOdYapflhSrWkJs4-s/edit?pli=1#" target="_blank">Resume</a></div>
+      </div>
+    </section>
+    
+                                      <!-- SKILLS -->
+    <section id="Skills">
+      <div class="skill" id="skill" data-aos="fade-right">
+        <div class="upper-heading">Skills</div>
+        <div id="skill-row">
+          <div class="skillRow">
+            <strong class="AboutStart"> My Skills and Learnings</strong><br>
+            Developing fundamental web development skills like HTML, CSS , Javascript and others too will give me the foundation and logic for communicating with programming languages. know how to build servers using a modern back-end framework and serve static as well as dynamic websites and files. Aspiring Web Developer, also have understanding of core concepts around data and learn how to manage databases and data on a web server. Also well-versed with probem-solving languages like Python and C++.
+          </div>
+          <div class="skillRow"  id="skillGraph">
+            <div class="skillbox">
+              <div class="skillName">HTML</div>
+              <div class="line" id="html">60%</div>
+            </div>
+            <div class="skillbox">
+              <div class="skillName">CSS</div>
+              <div class="line" id="css">40%</div>
+            </div>
+            <div class="skillbox">
+              <div class="skillName">C++</div>
+              <div class="line" id="cAdv">70%</div>
+            </div>
+            <div class="skillbox">
+              <div class="skillName">Java Script</div>
+              <div class="line" id="js">40%</div>
+            </div>
+            <div class="skillbox">
+              <div class="skillName">Python</div>
+              <div class="line" id="py">35%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+   
+                                      <!-- WORKS -->
+    <section id="Works">
+      <div class="works" id="works" data-aos="zoom-in-up">
+        <div class="upper-heading">Projects</div>
+        <div class="below-window" id="below-window">
+          <div class="column" id="first-column">
+            <div class="projects" id="project-1">
+              <a href="https://amankumar-2001.github.io/" target="_blank">
+                <img src="icons/wall.png" alt="img">
+                <div class="over__lay">
+                    <div class="imageTitle">TIC TAC TOE FUN</div>
+                    <p class="image_description"> HTML | CSS | Java Script</p>
+                </div>
+              </a>
+            </div>
+            <!-- <div class="projects" id="project-3">this is project three</div> -->
+          </div>  
+          <!-- <div class="column" id="second-column">
+            <div class="projects" id="project-2">this is project two</div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+                                      <!-- CP PROFILE -->
+    <section id="CPProfile">
+        <div class="cp" id="cp"  data-aos="zoom-in-up">
+          <div class="cphead upper-heading">Competitive Progrmming Profile</div>
+          <div class="handle-box" id="handleBox">
+              <div class="handle" id="cf"><a href="https://codeforces.com/profile/apcode15" target="_blank"><img src="icons/cf.png" alt="img"></a></div>
+              <div class="handle" id="cc"><a href="https://www.codechef.com/users/apcode15" target="_blank"><img src="icons/cc.png" alt="img"></a></div>
+              <div class="handle" id="ss"><a href="https://www.stopstalk.com/user/profile/Aman_Kumar_20" target="_blank"><img src="icons/ss.png" alt="img"></a></div>
+          </div>
+        </div>
+     </section>
+     
+                                      <!-- CONTACT --> 
+    <section id="Contact">
+      <div class="contact" id="contactid">
+        <div class="box upper-heading"> Contact Me</div>
+        <div class="contact-content" id="below-bow">
+          <div class="col" id="left-column">
+            <div class="row heading">Get In Touch</div>
+            <div class="row">
+              <div class="icon"><span class="material-icons">person</span></div>
+              <div class="rowi">
+                <div class="col2h">Name</div>
+                <div class="col2">Aman kumar</div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="icon"><span class="material-icons">room</span></div>
+              <div class="rowi">
+                <div class="col2h">Address</div>
+                <div class="col2">251201,Khatauli Muzaffarnagar, UP</div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="icon"><span class="material-icons">email</span></div>
+              <div class="rowi">
+                <div class="col2h">Email</div>
+                <div class="col2">amankumar15m01@gmail.com</div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="icon"><span class="material-icons">call</span></div>
+              <div class="rowi">
+                <div class="col2h">Phone</div>
+                <div class="col2">+91 8218276462</div>
+              </div>
+            </div>
+          </div>
+          <div class="col" id="right-column">
+            <div class="rrow">
+              <div class="row heading">My Handles:</div>
+              <div class="links">
+                 <div class="icon"><a href="https://github.com/amankumar-2001" target="_blank"><img src="icons/github.png" alt="img"></a></div>
+                 <div class="icon"><a href="https://www.linkedin.com/in/aman-kumar-99b4b21a0/" target="_blank"><img src="icons/lin.png" alt="img"></a></div>
+                 <div class="icon"><a href="https://twitter.com/AmanKumar15m01" target="_blank"><img src="icons/tw.png" alt="img"></a></div>
+                 <div class="icon"><a href="https://www.instagram.com/aman_prajapati._/" target="_blank"><img src="icons/instaa.png" alt="img"></a></div>
+                 <div class="icon"><a href="https://www.facebook.com/profile.php?id=100058292360065" target="_blank"><img src="icons/faceBook.png" alt="img"></a></div>
+              </div>
+            </div>
+            <div class="rrow">
+              <div class="row heading">Quick Links:</div>
+              <div class="links">
+                <ul>
+                  <div class="icon"><a href="#Home">Home</a></div>
+                  <div class="icon"><a href="#About">About</a></div>
+                  <div class="icon"><a href="#Skills">Sklls</a></div>
+                  <div class="icon"><a href="#Works">Works</a></div>
+                  <div class="icon"><a href="#cp">C.P. Profile</a></div>
+                </ul>
+             </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <section id="Footer">
+      <div class="footer" id="footer">
+        <span>Copyright <span class="far fa-copyright"></span> 2022 <a href="">Aman Kumar</a> | All rights reserved</span>
+      </div>
+    </section>
+                                  <!-- script file-->
+
+    <script>
+      function toggleHide(){
+        let btn=document.getElementById('dropDown');
+        let section=document.getElementById('nav1');
+        if(section.style.display!='none')
+        {
+          section.style.display='none';
+        }
+        else
+        {
+          section.style.display='flex';
+        }
+      }
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 200, 
+            duration: 1400,
+            easing: 'ease'
+        });
+    </script>
+     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script> 
+  </body>
+</html>
