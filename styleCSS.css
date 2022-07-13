@@ -100,7 +100,7 @@ strong{
     justify-content: center;
     width: 30%;
     height: 100%;
-    font-size: 160%;
+    font-size: 200%;
     margin: 0% 10%;
 }
 .home .details span{
@@ -116,9 +116,8 @@ strong{
     100%{content: "Developer";}
 }
 .clipPath{
-    clip-path: circle(40% at 40% 50%);
     size: 10px;
-    height: 400px;
+    height: 600px;
 }
 
 /*/////////////////////////////About////////////////////////////////////////////////*/
