@@ -70,6 +70,7 @@ body{
 
 .details{
     display: flex;
+    font-size: 160%;
     flex-direction: column;
 }
 .home {
@@ -86,7 +87,9 @@ strong{
 #box2{
     display: none;
 }
-
+#resume a {
+    font-size: 11px;
+} 
 /*////////////////////////////ABOUT////////////////////////////*/
 
 .upper-heading{
@@ -153,11 +156,32 @@ strong{
     top: 25rem;
 }
 #left-column{
-    padding: 0% 10% 0% 0%;
+    padding: 0% 0% 0% 0%;
 }
+#right-column{
+    padding: 0% 0% 0% 0%;
+}
+.icon{
+    padding: 5px 10px;
+}
+.icon a img{
+    height: 30px;
+    width: 30px;
+}
+.material-icons{
+    padding: 5px 5px 5px 5px;
+    font-size: 34px;
+ }
 .contact-content{
     flex-direction: column;
 }
 #footer{
     top: 25rem;
 } 
+
+#footer{
+    font-size: 80%;
+}
+.heading {
+    font-size: 1rem;
+}    
