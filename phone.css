@@ -84,8 +84,10 @@ body{
 strong{
     font-size: 40px;
 }
-#box2{
-    display: none;
+
+.clipPath{
+    size: 10px;
+    height: 200px;
 }
 #resume a {
     font-size: 11px;
